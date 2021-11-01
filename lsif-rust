@@ -8,4 +8,4 @@
 # crates (X1, X2, Y1 and Y2). So it is enough to run rust-analyzer once,
 # instead of once per workspace, or once per crate.
 
-/rust-analyzer lsif . > dump.lsif
+rust-analyzer lsif $HOME > $HOME/dump.lsif
